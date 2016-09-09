@@ -1,0 +1,29 @@
+{
+  "name": "itcast",
+  "version": "0.0.1",
+  "description": "一个基于终端下的markdown文件转换预览器",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node lib/index"
+  },
+  "keywords": [
+    "itcast",
+    "markdown",
+    "transform",
+    "previw",
+    "build"
+  ],
+  "bin": {
+    "itcast": "./bin/itcast.js",
+    "md": "./bin/index.js"
+  },
+  "author": "itcast",
+  "license": "ISC",
+  "dependencies": {
+    "browser-sync": "^2.15.0",
+    "github-markdown-css": "^2.4.0",
+    "marked": "^0.3.6",
+    "opener": "^1.4.1"
+  }
+}
